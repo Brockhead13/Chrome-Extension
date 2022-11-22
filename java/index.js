@@ -20,3 +20,8 @@ inputBtn.addEventListener("click", function() {
 mylead.push(inputEl.value)
     console.log(myleads)
 })    
+
+for (let i = 0; i < myleads.length; i++) {
+    console.log(myLeads[i])
+}
+
