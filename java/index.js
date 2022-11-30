@@ -25,3 +25,25 @@ for (let i = 0; i < myleads.length; i++) {
     console.log(myLeads[i])
 }
 
+const add-el = document.getElementById("add-el")
+
+function add(){
+addel.textContent 
+}
+
+console.log("add-el")
+
+//render color-el in javascript
+
+const colorEl = document.getElementById("color-el")
+
+function color(){
+colorEl.textContent
+}
+
+
+let fruit = ["apple", "orange", "pear", "strawberry", "banana"]
+
+for (let i = 0; i < fruit.length; i++){
+    console.log(fruit[i])
+}
