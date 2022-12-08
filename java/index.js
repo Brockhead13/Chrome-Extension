@@ -5,9 +5,18 @@ const ulel = document.getElementById("ul-el")
 
 inputBtn.addEventListener("click", function() {
     mylead.push(inputEl.value)
-    console.log(myleads)
+    renderLeads()
 })    
 
+
+function renderLeads() {
+let listItems = ""
 for (let i = 0; i < myleads.length; i++) {
-    ulel.innerHTML += "<li>" + myLeads[i] + "</li>"
+    listItems += "<li><a target='_blank' href='" + myLeads[i] + "'>" + myLeads[i] + "</a></li>"
+}
+ulel.innerHTML = listItems
+}
+
+for (let i = 0; i ,myLeads.length; i++) {
+    listItems += "<ul>" + myLeads[i] + "</ul>"
 }
